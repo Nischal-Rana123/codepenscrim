@@ -1,10 +1,3 @@
-/* Colors 
-body background: #131417
-tile background: #1e1f26 
-username: #b7bbc8
-card stats background: #131417
-*/
-
 :root {
   --font-main: "Noto Sans", sans-serif;
   --bg-main: #131417;
@@ -21,6 +14,13 @@ body {
   background: var(--bg-main);
   color: whitesmoke;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+  
 p,
 h3 {
   margin: 0;
@@ -91,3 +91,4 @@ img {
   transform: translateY(-5px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
+
